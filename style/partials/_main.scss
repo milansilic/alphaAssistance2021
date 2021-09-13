@@ -16,6 +16,7 @@ main{
 
 .sec1{
     @extend .sec;
+    
     p{
         font-size: calc(16px + 1vw);
         font-weight: 900;
@@ -24,6 +25,7 @@ main{
         @media screen  and(min-width:$minTablet){
             font-size: 28px;
         }
+
         span{
             display: inline-block;
             width: 100%;

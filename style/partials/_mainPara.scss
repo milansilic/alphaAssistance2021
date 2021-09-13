@@ -12,27 +12,20 @@ main{
     >*{
         padding: 12px 0;
     }
+    
     h1{
         padding: 24px 0;
     }
+
     p{
         font-family: $ff3;
         font-size: 16px;
         line-height: 1.6;
         text-align: justify;
-        
-        &.tCent{
-            text-align: center;
-        }
-        a{
-            color: $cg;
-        }
-        &.contactText{border: 1px solid lime;
-            text-align: center;
-            font-size: 22px;
-            color: $cg;
-        }
+
+        a{color: $cg;}
     }
+
     ul{
         list-style-type: none;
         list-style-position: inside;
@@ -41,13 +34,16 @@ main{
         font-size: 16px;
         text-align: justify;
         line-height: 1.5;
+
         li{
             margin-bottom: 12px;
         }
     }
+
     ul{
         list-style-type: none;
     }
+
     h2{
         font-size: 16px;
         padding: 24px 0 12px 0;
@@ -61,10 +57,12 @@ main{
 
 .sec6{
     @include fl1(null, wrap, center, null);
+    
     h1{
         padding: 24px 0;
         width: 100%;
     }
+
     .contactWrp{
         width: 100%;
         padding: 50px 12px;
@@ -72,10 +70,12 @@ main{
             width: 50%;
             padding: 72px 12px;
         }
+
         h3{
             font-size: 15px;
             padding: 12px 0;
         }
+
         .contactText{
             color: $cg;
             font-family: $ff3;
@@ -117,6 +117,7 @@ main{
     @media screen  and(min-width:$minDesktop){
         width: 700px;
     }
+
     li{
         font-size: 16px;
         @media screen  and(min-width:$minTablet){   

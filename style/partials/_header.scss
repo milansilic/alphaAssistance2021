@@ -14,7 +14,7 @@
         padding: 30px 3vw 30px 2.2vw;
     }
 
-    .logo1{border: px solid orange;
+    .logo1{
         width: 100%;
         text-align: center;
         padding: 24px 0 44px 0;
@@ -27,7 +27,7 @@
             vertical-align: bottom;
         }
 
-        img{border: px solid #fff;
+        img{
             width: 48px;
             margin: .7vw .7vw .3vw 0;
             -webkit-filter: drop-shadow(5px 5px 5px #222 );
@@ -37,14 +37,16 @@
                 width: 62px;
             }
         }
-        hgroup{border: px solid red;
+        
+        hgroup{
             &>*{
                 text-align: center;
                 font-family: $ff1;
                 line-height: 1.1;
                 transition: all .2s;
             }
-            h2{border: px solid #fff;
+
+            h2{
                 font-size: 33px;
                 font-weight: 600;
                 color:$c5;
@@ -55,7 +57,8 @@
                     font-size: 41px;
                 }
             }
-            h3{border: px solid #fff;
+
+            h3{
                 font-size: 18px;
                 font-weight: 900;
                 color: $cr;
@@ -70,7 +73,8 @@
             }
         }
     }
-    ul{border: px solid orange;
+
+    ul{
         list-style-type: none;
         max-width: 572px;
         font-weight: 600;
@@ -80,12 +84,14 @@
             max-width: initial;
             margin: 0px;
         }
-        li{border: px dotted red;
+
+        li{
             width: 33%;
             @media screen  and(min-width:$minTablet){
                 width: initial;
             }
-            a{border: px solid yellow;
+
+            a{
                 display: block; 
                 font-size: calc(10px + .4vw);
                 padding: 10px 1.8vw;
@@ -99,7 +105,8 @@
                     font-size: calc(8px + .5vw);
                     padding: 10px 1.8vw;
                 }
-                img{border: px dotted lime;
+
+                img{
                     width: 40px;
                     display: block;
                     margin: 0 auto 6px auto;

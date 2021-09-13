@@ -46,7 +46,6 @@ a {
   }
 }
 #hdr .logo1 {
-  border: px solid orange;
   width: 100%;
   text-align: center;
   padding: 24px 0 44px 0;
@@ -62,7 +61,6 @@ a {
   vertical-align: bottom;
 }
 #hdr .logo1 img {
-  border: px solid #fff;
   width: 48px;
   margin: 0.7vw 0.7vw 0.3vw 0;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -74,9 +72,6 @@ a {
     width: 62px;
   }
 }
-#hdr .logo1 hgroup {
-  border: px solid red;
-}
 #hdr .logo1 hgroup > * {
   text-align: center;
   font-family: "Mali";
@@ -84,7 +79,6 @@ a {
   transition: all 0.2s;
 }
 #hdr .logo1 hgroup h2 {
-  border: px solid #fff;
   font-size: 33px;
   font-weight: 600;
   color: #1CC2EB;
@@ -98,7 +92,6 @@ a {
   }
 }
 #hdr .logo1 hgroup h3 {
-  border: px solid #fff;
   font-size: 18px;
   font-weight: 900;
   color: #ef3a40;
@@ -114,7 +107,6 @@ a {
   }
 }
 #hdr ul {
-  border: px solid orange;
   list-style-type: none;
   max-width: 572px;
   font-weight: 600;
@@ -130,7 +122,6 @@ a {
   }
 }
 #hdr ul li {
-  border: px dotted red;
   width: 33%;
 }
 @media screen and (min-width: 768px) {
@@ -139,7 +130,6 @@ a {
   }
 }
 #hdr ul li a {
-  border: px solid yellow;
   display: block;
   font-size: calc(10px + .4vw);
   padding: 10px 1.8vw;
@@ -159,7 +149,6 @@ a {
   }
 }
 #hdr ul li a img {
-  border: px dotted lime;
   width: 40px;
   display: block;
   margin: 0 auto 6px auto;
@@ -323,9 +312,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-footer > * {
-  border: px solid #fff;
-}
 footer hgroup {
   grid-column: 1;
   grid-row: 1;
@@ -355,7 +341,6 @@ footer hgroup h2 {
   }
 }
 footer .ftrLinks {
-  border: px solid white;
   grid-column: 1;
   grid-row: 3;
   list-style-type: circle;
@@ -391,7 +376,6 @@ footer .ftrLinks li {
   }
 }
 footer .ftrLogo {
-  border: px solid lime !important;
   justify-self: stretch;
   grid-column: 1;
   grid-row: 2;
@@ -418,7 +402,6 @@ footer .ftrLogo img {
   }
 }
 footer .map {
-  border: px solid lime !important;
   width: 100%;
   padding: 0 2vw 0 5vw;
   grid-column: 1;
@@ -431,7 +414,6 @@ footer .map {
   }
 }
 footer .map iframe {
-  border: px solid red !important;
   width: 100%;
   height: 240px;
   margin: 0 0 16px 0;

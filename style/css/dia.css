@@ -46,7 +46,6 @@ a {
   }
 }
 #hdr .logo1 {
-  border: px solid orange;
   width: 100%;
   text-align: center;
   padding: 24px 0 44px 0;
@@ -62,7 +61,6 @@ a {
   vertical-align: bottom;
 }
 #hdr .logo1 img {
-  border: px solid #fff;
   width: 48px;
   margin: 0.7vw 0.7vw 0.3vw 0;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -74,9 +72,6 @@ a {
     width: 62px;
   }
 }
-#hdr .logo1 hgroup {
-  border: px solid red;
-}
 #hdr .logo1 hgroup > * {
   text-align: center;
   font-family: "Mali";
@@ -84,7 +79,6 @@ a {
   transition: all 0.2s;
 }
 #hdr .logo1 hgroup h2 {
-  border: px solid #fff;
   font-size: 33px;
   font-weight: 600;
   color: #1CC2EB;
@@ -98,7 +92,6 @@ a {
   }
 }
 #hdr .logo1 hgroup h3 {
-  border: px solid #fff;
   font-size: 18px;
   font-weight: 900;
   color: #ef3a40;
@@ -114,7 +107,6 @@ a {
   }
 }
 #hdr ul {
-  border: px solid orange;
   list-style-type: none;
   max-width: 572px;
   font-weight: 600;
@@ -130,7 +122,6 @@ a {
   }
 }
 #hdr ul li {
-  border: px dotted red;
   width: 33%;
 }
 @media screen and (min-width: 768px) {
@@ -139,7 +130,6 @@ a {
   }
 }
 #hdr ul li a {
-  border: px solid yellow;
   display: block;
   font-size: calc(10px + .4vw);
   padding: 10px 1.8vw;
@@ -159,7 +149,6 @@ a {
   }
 }
 #hdr ul li a img {
-  border: px dotted lime;
   width: 40px;
   display: block;
   margin: 0 auto 6px auto;
@@ -184,14 +173,10 @@ main {
   }
 }
 
-.sec5 {
-  border: px solid #ccc;
-}
 .sec5 > * {
   padding: 12px 0;
 }
 .sec5 h1 {
-  border: px solid lime;
   padding: 24px 0;
 }
 .sec5 dl {
@@ -231,13 +216,11 @@ main {
   margin-right: 2px;
 }
 .sec5 dl dt .arrD {
-  border: px solid green;
   width: 28px;
   margin-right: 20px;
   transition: all 0.3s ease-in;
 }
 .sec5 dl dd {
-  border: px solid lime;
   background-color: #b8deff;
   height: 0px;
   overflow: hidden;
@@ -281,7 +264,6 @@ main {
   }
 }
 .sec5 .all-objections li h4 {
-  border: px solid orange;
   font-size: clamp(14px, 2vw, 18px);
   min-height: 60px;
   display: flex;
@@ -289,7 +271,6 @@ main {
   justify-content: center;
 }
 .sec5 .all-objections li figure {
-  border: px solid red;
   width: auto;
   height: 60px;
   background-repeat: no-repeat;
@@ -301,7 +282,7 @@ main {
   background-image: url("../../icons/ohMAIL.svg");
 }
 .sec5 .all-objections li:nth-of-type(2) > figure {
-  background-image: url("../../icons/ohAMS.png");
+  background-image: url("../../icons/ohAMS2.png");
 }
 .sec5 .all-objections li:nth-of-type(3) > figure {
   background-image: url("../../icons/ohTHINK.svg");
@@ -316,7 +297,6 @@ main {
   background-image: url("../../icons/onNOTRAVEL.svg");
 }
 .sec5 .all-objections li article {
-  border: px solid red;
   height: 0px;
   overflow: hidden;
 }
@@ -350,20 +330,14 @@ main {
   }
 }
 
-.sec7 {
-  border: px solid red;
-}
 .sec7 h1 {
-  border: px solid lime;
   padding: 24px 0;
 }
 .sec7 .theory {
-  border: px solid green;
   padding: 24px 8vw;
   text-align: left;
 }
 .sec7 .theory h4 {
-  border: px solid purple;
   font-size: 19px;
   padding: 6px 0;
   text-decoration: underline;
@@ -379,20 +353,12 @@ main {
   transition: max-height 0.2s ease-out;
 }
 .sec7 .theory > article p {
-  border: px solid peru;
   font-family: "Roboto";
   font-size: 18px;
   text-align: justify;
   line-height: 1.7;
   padding: 12px 0;
   overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.hidden {
-  height: 0px;
-  line-height: 0px;
-  font-size: 0px;
   transition: all 0.3s ease;
 }
 
@@ -416,9 +382,6 @@ footer {
   footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
-}
-footer > * {
-  border: px solid #fff;
 }
 footer hgroup {
   grid-column: 1;
@@ -449,7 +412,6 @@ footer hgroup h2 {
   }
 }
 footer .ftrLinks {
-  border: px solid white;
   grid-column: 1;
   grid-row: 3;
   list-style-type: circle;
@@ -485,7 +447,6 @@ footer .ftrLinks li {
   }
 }
 footer .ftrLogo {
-  border: px solid lime !important;
   justify-self: stretch;
   grid-column: 1;
   grid-row: 2;
@@ -512,7 +473,6 @@ footer .ftrLogo img {
   }
 }
 footer .map {
-  border: px solid lime !important;
   width: 100%;
   padding: 0 2vw 0 5vw;
   grid-column: 1;
@@ -525,7 +485,6 @@ footer .map {
   }
 }
 footer .map iframe {
-  border: px solid red !important;
   width: 100%;
   height: 240px;
   margin: 0 0 16px 0;

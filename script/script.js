@@ -11,6 +11,7 @@ function bigScrTop(){
     he3.style.fontSize = "22px";
     he3.style.fontWeight = "600";
 };
+
 function bigScrScr(){
     hdr.style.padding = "6px 3vw 6px 2.2vw";
     hdr.style.boxShadow = "0px 3px 12px #888888";
@@ -19,6 +20,7 @@ function bigScrScr(){
     he3.style.fontSize = "17px";
     he3.style.fontWeight = "900";
 };
+
 function smScrTop(){
     hdr.style.padding = "0 2vw 40px 2vw";
     img1.style.width = "36px";
@@ -26,6 +28,7 @@ function smScrTop(){
     he3.style.fontSize = "16px";
     he3.style.fontWeight = "900";
 };
+
 function smScrScr(){
     hdr.style.padding = "0 2vw 40px 2vw";
     img1.style.width = "36px";
@@ -42,7 +45,6 @@ function headTrans(){
 };
 
 ["load", "resize", "scroll"].forEach(item => addEventListener(item, ()=>{headTrans();}));
-
 
 
 // oh.html

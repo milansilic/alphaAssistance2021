@@ -11,6 +11,7 @@ main{
         @include fl1(null, nowrap, center, center);
         padding: 120px 0 60px 0;
     }
+    
     h1{
         display: block;
         width: 100%;
@@ -20,6 +21,7 @@ main{
             display: none;
         }
     }
+
     .card{
         width: 140px;
         margin: 30px 0 30px 0;
@@ -33,6 +35,7 @@ main{
             width: 280px;
         }
     }
+
     .packInfo{
         min-width: 40%;
         max-width: 580px;
@@ -43,6 +46,7 @@ main{
         @media screen  and(min-width:$minDesktop){
             margin: 0 1vw 0 3vw;
         }
+
         h2{
             display: none;
             color: #053353;
@@ -57,8 +61,10 @@ main{
                 font-size: 34px;
             }
         }
+
         ul{
             text-align: left;
+
             li{
                 font-size: 16px;
                 @media screen  and(min-width:$minMabileL){
