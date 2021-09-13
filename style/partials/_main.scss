@@ -1,0 +1,78 @@
+main{
+    @media screen  and(min-width:$minTablet){
+        padding: 130px 0 0 0;
+    }
+}
+
+.sec{
+    padding: 60px 0;
+    @media screen  and(min-width:$minMabileL){
+        padding: 100px 0;
+    }
+    @media screen  and(min-width:$minTablet){
+        padding: 128px 0;
+    }
+}
+
+.sec1{
+    @extend .sec;
+    p{
+        font-size: calc(16px + 1vw);
+        font-weight: 900;
+        color: $c1;
+        line-height: 2;
+        @media screen  and(min-width:$minTablet){
+            font-size: 28px;
+        }
+        span{
+            display: inline-block;
+            width: 100%;
+            @media screen  and(min-width:$minMabileL){
+                display: inline;
+            }
+        }
+    }
+}
+
+.sec2{
+    @extend .sec;
+    @include fl1(null, null, center, null);
+    ul{
+        color: $c1;
+        font-weight: 900;
+        line-height: 1.8;
+        font-size: calc(4px + 2.2vw);
+        text-align: left;
+        letter-spacing: -1px;
+        padding: 0px 3vw;
+        @media screen  and(min-width:$minMabileL){
+            font-size: calc(12px + 1vw);
+            letter-spacing: 0px;
+        }
+        @media screen  and(min-width:$minTablet){
+            font-size: calc(18px + .5vw);
+        }
+        li{
+            list-style-type: disc;
+        }
+    }
+}
+
+.para{
+    width: 100%; height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 0;
+    @media screen  and(min-width:$minTablet){
+        height: 300px;
+    }
+    &:nth-of-type(1){
+        background-image: url('../../img/img2.jpg');
+    }
+    &:nth-of-type(2){
+        background-image: url("../../img/img5.jpg");
+    }
+}

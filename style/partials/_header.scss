@@ -1,0 +1,113 @@
+#hdr{
+    @include fl1(null, wrap, space-between, center);
+    background-color: $c2;
+    color:$cw;
+    padding: 22px 2vw 52px 2vw;
+    width: 100%;
+    transition: padding .2s;
+    z-index: 1;
+    @media screen and(min-width:$minTablet){
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 4px 10px #888888;
+        padding: 30px 3vw 30px 2.2vw;
+    }
+
+    .logo1{border: px solid orange;
+        width: 100%;
+        text-align: center;
+        padding: 24px 0 44px 0;
+        @media screen and (min-width:$minTablet){
+            width: initial;
+            padding: 0 0 10px 0;
+        }
+        &>*{
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        img{border: px solid #fff;
+            width: 48px;
+            margin: .7vw .7vw .3vw 0;
+            -webkit-filter: drop-shadow(5px 5px 5px #222 );
+            filter: drop-shadow(5px 5px 5px #222);
+            transition: width .2s;
+            @media screen and (min-width:$minTablet){
+                width: 62px;
+            }
+        }
+        hgroup{border: px solid red;
+            &>*{
+                text-align: center;
+                font-family: $ff1;
+                line-height: 1.1;
+                transition: all .2s;
+            }
+            h2{border: px solid #fff;
+                font-size: 33px;
+                font-weight: 600;
+                color:$c5;
+                -webkit-filter: drop-shadow(5px 5px 5px #222 );
+                filter: drop-shadow(5px 5px 5px #222);
+                transition: all .2s;
+                @media screen and (min-width:$minTablet){
+                    font-size: 41px;
+                }
+            }
+            h3{border: px solid #fff;
+                font-size: 18px;
+                font-weight: 900;
+                color: $cr;
+                letter-spacing: -1px;
+                -webkit-filter: drop-shadow(5px 5px 5px #222 );
+                filter: drop-shadow(5px 5px 5px #222);
+                transition: all .2s;
+                @media screen and (min-width:$minTablet){
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    ul{border: px solid orange;
+        list-style-type: none;
+        max-width: 572px;
+        font-weight: 600;
+        margin: 0 auto;
+        @include fl1(null, wrap, center, null);
+        @media screen  and(min-width:$minTablet){
+            max-width: initial;
+            margin: 0px;
+        }
+        li{border: px dotted red;
+            width: 33%;
+            @media screen  and(min-width:$minTablet){
+                width: initial;
+            }
+            a{border: px solid yellow;
+                display: block; 
+                font-size: calc(10px + .4vw);
+                padding: 10px 1.8vw;
+                margin: 24px 0 0 0;
+                @media screen  and(min-width:$minTablet){
+                    font-size: calc(2px + 1.12vw);
+                    padding: 10px 1.2vw;
+                    margin: initial;
+                }
+                @media screen  and(min-width:$minDesktop){
+                    font-size: calc(8px + .5vw);
+                    padding: 10px 1.8vw;
+                }
+                img{border: px dotted lime;
+                    width: 40px;
+                    display: block;
+                    margin: 0 auto 6px auto;
+                    @media screen  and(min-width:$minTablet){
+                        display: none;
+                    }
+                }
+            }
+        }
+    }  
+}

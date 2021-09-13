@@ -1,0 +1,42 @@
+*{box-sizing:border-box; margin:0px; padding:0px;}
+ul{list-style:none;}
+
+$cw:#fff;
+$cg:#a6a6a6;
+$cr:#ef3a40;
+$c1:#053353;
+$c2:#1e73be;
+$c3:#49afd8;
+$c4:#3bc7f3; //original
+$c5:#1CC2EB; //original real
+$c6:#a7cef1;
+$c7:#b8deff;
+$ff1:'Mali';
+$ff2:'Montserrat';
+$ff3: 'Roboto';
+$minMabileL:576px;
+$minTablet:768px;
+$minDesktop:992px;
+$minLargeScreen:1200px;
+
+@mixin fl1 ($fDir, $fWr, $juCo, $aa){
+    display: flex;
+    flex-flow: $fDir $fWr;
+    justify-content: $juCo;
+    align-items: $aa;
+}
+
+body>*{
+    background-color: #ebf5ff;
+    font-family: $ff2;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: $cw;
+    @media screen and (min-width:$minTablet){
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

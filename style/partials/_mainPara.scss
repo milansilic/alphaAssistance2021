@@ -1,0 +1,134 @@
+main{
+    padding: 40px 20px;
+    @media screen  and(min-width:$minTablet){
+        padding: 200px 8vw 60px 8vw;
+    }
+    @media screen  and(min-width:$minDesktop){
+        padding: 202px 14vw 80px 14vw;
+    }
+}
+
+.sec4{
+    >*{
+        padding: 12px 0;
+    }
+    h1{
+        padding: 24px 0;
+    }
+    p{
+        font-family: $ff3;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+        
+        &.tCent{
+            text-align: center;
+        }
+        a{
+            color: $cg;
+        }
+        &.contactText{border: 1px solid lime;
+            text-align: center;
+            font-size: 22px;
+            color: $cg;
+        }
+    }
+    ul{
+        list-style-type: none;
+        list-style-position: inside;
+        color:#777;
+        font-family: $ff3;
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.5;
+        li{
+            margin-bottom: 12px;
+        }
+    }
+    ul{
+        list-style-type: none;
+    }
+    h2{
+        font-size: 16px;
+        padding: 24px 0 12px 0;
+        span{
+            display: block;
+            font-size: 18px;
+        }
+    }
+    
+}
+
+.sec6{
+    @include fl1(null, wrap, center, null);
+    h1{
+        padding: 24px 0;
+        width: 100%;
+    }
+    .contactWrp{
+        width: 100%;
+        padding: 50px 12px;
+        @media screen  and(min-width:$minTablet){
+            width: 50%;
+            padding: 72px 12px;
+        }
+        h3{
+            font-size: 15px;
+            padding: 12px 0;
+        }
+        .contactText{
+            color: $cg;
+            font-family: $ff3;
+            font-size: 18px;
+            text-align: center;    
+            line-height: 1.6;
+            @media screen  and(min-width:$minMabileL){
+                font-size: 22px;
+            }
+            a{
+                color: $cg;
+            }
+        }
+    }
+}
+
+.intersImg1{
+    height: 60vw;
+    background: url('../../img/inter1.jpg') no-repeat center center / contain;
+    margin: 40px auto;
+    @media screen  and(min-width:$minTablet){   
+        height: 420px;
+    }
+    @media screen  and(min-width:$minDesktop){
+        height: calc(320px + 12vw);
+    }
+}
+
+.intersImg2{
+    width:100%; height: 300px;
+    background: url('../../img/inter2.jpg') no-repeat center center / cover;
+    margin: 40px auto;
+}
+
+.importantBulletins{
+    display: inline-block;
+    padding: 20px 10px;
+    width: 100%;
+    @media screen  and(min-width:$minDesktop){
+        width: 700px;
+    }
+    li{
+        font-size: 16px;
+        @media screen  and(min-width:$minTablet){   
+            font-size: 18px;
+        }
+        @media screen  and(min-width:$minDesktop){
+            font-size: 20px;
+        }
+    }
+}
+
+.tRed{
+    color: $cr;
+    font-weight: 900;
+}

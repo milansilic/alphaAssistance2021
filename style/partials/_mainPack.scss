@@ -1,0 +1,106 @@
+main{
+    @media screen  and(min-width:$minTablet){
+        padding: 140px 0 0 0;
+    }
+}
+
+.sec3{
+    padding: 60px 0;
+    @include fl1(null, wrap, center, center);
+    @media screen  and(min-width:$minTablet){
+        @include fl1(null, nowrap, center, center);
+        padding: 120px 0 60px 0;
+    }
+    h1{
+        display: block;
+        width: 100%;
+        color: #053353;
+        font-size: calc(10px + 3vw);
+        @media screen  and(min-width:$minTablet){
+            display: none;
+        }
+    }
+    .card{
+        width: 140px;
+        margin: 30px 0 30px 0;
+        -webkit-filter: drop-shadow(1px 1px 5px #777);
+        filter: drop-shadow(0px 0px 6px #fff ) drop-shadow(2px 2px 20px #ccc);
+        @media screen  and(min-width:$minTablet){
+            width: 26vw;
+            margin: 0 4vw;
+        }
+        @media screen  and(min-width:$minDesktop){
+            width: 280px;
+        }
+    }
+    .packInfo{
+        min-width: 40%;
+        max-width: 580px;
+        margin: 0 3vw 0 8vw;
+        @media screen  and(min-width:$minTablet){
+            margin: 0 3vw 0 6vw;
+        }
+        @media screen  and(min-width:$minDesktop){
+            margin: 0 1vw 0 3vw;
+        }
+        h2{
+            display: none;
+            color: #053353;
+            font-size: 30px;
+            font-weight: 900;
+            text-align: left;
+            padding: 0 0 24px 0;
+            @media screen  and(min-width:$minTablet){
+                display: block;
+            }
+            @media screen  and(min-width:$minDesktop){
+                font-size: 34px;
+            }
+        }
+        ul{
+            text-align: left;
+            li{
+                font-size: 16px;
+                @media screen  and(min-width:$minMabileL){
+                    font-size: 18px;
+                }
+                @media screen  and(min-width:$minDesktop){
+                    font-size: 20px;
+                }   
+                span{
+                    font-size: 16px;
+                }
+            }
+            &:nth-of-type(1){
+                li{
+                    line-height: 20px;
+                    @media screen  and(min-width:$minMabileL){
+                        line-height: initial;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+            &:nth-of-type(2){
+                list-style-type: circle;
+                li{
+                    line-height: 20px;
+                }
+            }
+        }
+
+        small{
+            display: block;
+            text-align: left;
+            margin: 20px 0;
+            &::before{
+                content: '* ';
+            }
+        }
+    }
+}
+
+.second{
+    @media screen  and(min-width:$minTablet){
+        order: 2;
+    }
+}
