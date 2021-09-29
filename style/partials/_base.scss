@@ -11,6 +11,8 @@ $c4:#3bc7f3; //original
 $c5:#1CC2EB; //original real
 $c6:#a7cef1;
 $c7:#b8deff;
+$c8:#f2f9ff;
+
 $ff1:'Mali';
 $ff2:'Montserrat';
 $ff3: 'Roboto';
@@ -27,7 +29,7 @@ $minLargeScreen:1200px;
 }
 
 body>*{
-    background-color: #ebf5ff;
+    background-color: $c8;
     font-family: $ff2;
     text-align: center;
 }

@@ -9,7 +9,7 @@ ul {
 }
 
 body > * {
-  background-color: #ebf5ff;
+  background-color: #f2f9ff;
   font-family: "Montserrat";
   text-align: center;
 }
@@ -330,36 +330,14 @@ main {
   }
 }
 
+.sec7 {
+  border: px dotted grey;
+}
 .sec7 h1 {
   padding: 24px 0;
 }
-.sec7 .theory {
-  padding: 24px 8vw;
-  text-align: left;
-}
-.sec7 .theory h4 {
-  font-size: 19px;
-  padding: 6px 0;
-  text-decoration: underline;
-  cursor: pointer;
-}
-.sec7 .theory h4::before {
-  content: url("../../img/rec.svg");
-  margin-right: 8px;
-}
-.sec7 .theory > article {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-.sec7 .theory > article p {
-  font-family: "Roboto";
-  font-size: 18px;
-  text-align: justify;
-  line-height: 1.7;
-  padding: 12px 0;
-  overflow: hidden;
-  transition: all 0.3s ease;
+.sec7 .audio {
+  border: px dotted red;
 }
 
 footer {

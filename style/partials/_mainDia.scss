@@ -168,42 +168,14 @@ main{
 }
 
 
-.sec7{
+.sec7{border: px dotted grey;
     
     h1{
         padding: 24px 0;
     }
 
-    .theory{
-        padding: 24px 8vw;
-        text-align: left;
+    .audio{border: px dotted red;
 
-        h4{
-            font-size: 19px;
-            padding: 6px 0;
-            text-decoration: underline;
-            cursor: pointer;
-            &::before{
-                content: url('../../img/rec.svg');
-                margin-right: 8px;
-            }
-        }
-
-        &>article{
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height .2s ease-out;
-
-            p{
-                font-family: $ff3;
-                font-size: 18px;
-                text-align: justify;
-                line-height: 1.7;
-                padding: 12px 0;
-                overflow: hidden;
-                transition: all .3s ease;
-            }
-        }
     }
 }
 
