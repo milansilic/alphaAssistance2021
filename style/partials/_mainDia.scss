@@ -168,20 +168,18 @@ main{
 }
 
 
-.sec7{border: px dotted grey;
+.sec7{
     
     h1{
         padding: 24px 0;
     }
 
-    .audio{border: px dotted red;
+    figure{
+        margin: 32px auto 48px auto;
 
+        figcaption{
+            line-height: 1.5;
+            margin: 0 auto 8px auto;
+        }
     }
 }
-
-// .hidden{
-//     height: 0px;
-//     line-height: 0px;
-//     font-size: 0px;       
-//     transition: all .3s ease;
-// }

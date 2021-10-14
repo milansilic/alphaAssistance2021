@@ -330,14 +330,15 @@ main {
   }
 }
 
-.sec7 {
-  border: px dotted grey;
-}
 .sec7 h1 {
   padding: 24px 0;
 }
-.sec7 .audio {
-  border: px dotted red;
+.sec7 figure {
+  margin: 32px auto 48px auto;
+}
+.sec7 figure figcaption {
+  line-height: 1.5;
+  margin: 0 auto 8px auto;
 }
 
 footer {
